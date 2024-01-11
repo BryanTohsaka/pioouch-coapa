@@ -19,7 +19,7 @@ const Features = () => {
                                     <i className="service-one__icon "><TbTargetArrow />
 </i>
                                     <h3>Tratamientos<br /> Eficaces</h3>
-                                    <p >Eliminación de piojos y <br /> liendres en una sesión con productos 100% naturales.</p>
+                                    <p >Productos no tóxicos, 100% naturales, libres de químicos.</p>
                                     
                                 </div>
                             </div>
@@ -29,7 +29,7 @@ const Features = () => {
                                 <div className="service-one__inner">
                                     <i className="service-one__icon"><FaUserDoctor /></i>
                                     <h3><a href="#"> Diagnóstico<br /> Gratis</a></h3>
-                                    <p>Inspección minuciosa y diagnóstico preciso y <br /> sin costo.</p>
+                                    <p>Diagnósticos gratuitos a <br /> familiares y amigos.</p>
                                     
                                 </div>
                             </div>
@@ -39,7 +39,7 @@ const Features = () => {
                                 <div className="service-one__inner">
                                     <i className="service-one__icon"><MdCleanHands /></i>
                                     <h3><a href="#">Ambiente <br />Agradable</a></h3>
-                                    <p>Instalaciones acogedoras,<br /> limpias y cómodas para tu tranquilidad.</p>
+                                    <p>Tratamiento 100%<br/> garantizado</p>
                                     
                                 </div>
                             </div>
@@ -49,7 +49,7 @@ const Features = () => {
                                 <div className="service-one__inner">
                                     <i className="service-one__icon"><GiArcheryTarget /></i>
                                     <h3><a href="#">Resultados <br />Garantizados</a></h3>
-                                    <p>Procedimientos efectivos<br /> para lucir un cabello libre de<br /> piojos en una sola sesión.</p>
+                                    <p>Certificado de limpieza para escuela/trabajo.</p>
                                 </div>
                             </div>
                         </div>

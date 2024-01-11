@@ -20,12 +20,9 @@ const CallToActionTwo = () => {
                             </div>
                             <div className="cta-two__text">
                                 <p>
-                                    Nuestro equipo está comprometido a ofrecer tratamientos
-                                    seguros, rápidos y sin dolor utilizando productos naturales.
-                                    Sabemos lo importante que es para ti la comodidad y seguridad
-                                    de tus hijos, por eso realizamos revisiones minuciosas para
-                                    asegurar la eliminación completa de los piojos en una sola
-                                    sesión.
+                                Nuestros procesos de eliminación de piojos están realizados con productos 100% naturales que no dañan su salud y sin efectos secundarios.<br />
+                                Nuestros tratamientos y productos NO TÓXICOS hacen efectiva la eliminación de piojos y liendres sin efectos secundarios para tu salud y la de su familia.<br />
+                                Contamos con instalaciones seguras, limpias, divertidas y dinámicas para que los pequeños tengan un momento agradable.<br />
                                 </p>
                             </div>
                             <a href="https://wa.me/5215551004343" className="thm-btn">

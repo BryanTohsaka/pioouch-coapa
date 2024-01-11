@@ -7,7 +7,6 @@ import CallToAction from "../components/CallToAction";
 import CallToActionTwo from "../components/CallToActionTwo";
 import Counter from "../components/Counter";
 import Screenshots from "../components/Screenshots";
-import Faq from "../components/Faq";
 import Btnwp from "../components/Btnwp";
 
 
@@ -23,7 +22,6 @@ const HomePage = () => (
         <CallToActionTwo />
         <Counter />
         <Screenshots />
-        <Faq />
         <Footer />
         <Btnwp />
     </Layout>

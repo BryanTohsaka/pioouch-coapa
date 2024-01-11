@@ -26,18 +26,18 @@ const CallToAction = () => {
                             </div>
                             <div className="cta-one__text">
                                 <p>
-                                Ay Piojos te ofrece soluciones rápidas y efectivas para deshacerte de los piojos y liendres.
+                                Somos expertos en la eliminación de Piojos y Liendres del cabello, ¡Dejándote libre de ellos en 1 sola sesión!
                                 </p>
                             </div>
                             <ul className="list-unstyled">
                                 <li>
-                                    <i className="fa fa-check"></i>Tratamientos eficaces con productos naturales.
+                                    <i className="fa fa-check"></i>Todo nuestro personal está capacitado para brindarle una excelente atención y que disfrute su estancia en nuestra clínica.
+                                </li>
+                                <li className="list-items">
+                                    <i className="fa fa-check"></i>Contamos con productos especializados, gran tecnología y experiencia en la eliminación de piojos. Ofrecemos un diagnóstico GRATIS para familiares y amigos.
                                 </li>
                                 <li>
-                                    <i className="fa fa-check"></i>Atención personalizada para cada cliente.
-                                </li>
-                                <li>
-                                    <i className="fa fa-check"></i>Soluciones rápidas y sin complicaciones en una sola sesión.
+                                    <i className="fa fa-check"></i>Con métodos y en procedimientos Patentados, tecnología para una efectiva eliminación de Piojos y Liendres   ¡Garantizamos los Resultados!
                                 </li>
                             </ul>
                             <a href="https://wa.me/5215551004343" className="thm-btn">

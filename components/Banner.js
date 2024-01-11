@@ -14,9 +14,9 @@ const Banner = () => {
                     <div className="row">
                         <div className="col-xl-6 col-lg-8">
                             <div className="banner-one__content">
-                                <h3 className="banner-one__title">Sin piojos <br />
-                                    <span>Eliminación</span> en solo 60<br /> minutos.</h3>
-                                <p className="banner-one__text">Rápida eliminación de piojos y liendres sin dolor.
+                                <h3 className="banner-one__title">Expertos<br />
+                                    <span>en eliminación</span> de Piojos<br /> y Liendres.</h3>
+                                <p className="banner-one__text">Atención personalizada ¡Ven a Sin Piojos Coapa!.
                                 </p>
                                 <a href="https://wa.me/5215551004343" className="banner-one__btn thm-btn "><span>¡Agenda tu cita!</span></a>
                             </div>
