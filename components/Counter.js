@@ -22,7 +22,7 @@ export default class Counter extends Component {
             <section className="fact-one">
                 <div className="container">
                     <div className="block-title text-center">
-                        <h2 className="block-title__title">Mas de <span>4000</span> <br /> clientes satisfechos.
+                        <h2 className="block-title__title">Mas de <span>9,000</span> <br /> clientes satisfechos.
                         </h2>
                     </div>
                     <div className="row">
