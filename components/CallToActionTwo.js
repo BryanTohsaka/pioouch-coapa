@@ -25,7 +25,7 @@ const CallToActionTwo = () => {
                                 Contamos con instalaciones seguras, limpias, divertidas y dinámicas para que los pequeños tengan un momento agradable.<br />
                                 </p>
                             </div>
-                            <a href="https://wa.me/5215551004343" className="thm-btn">
+                            <a href="https://wa.me/5570127591" className="thm-btn">
                                 <span>¡Agenda hoy!</span>
                             </a>
                         </div>

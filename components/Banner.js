@@ -18,7 +18,7 @@ const Banner = () => {
                                     <span>en eliminación</span> de Piojos<br /> y Liendres.</h3>
                                 <p className="banner-one__text">Atención personalizada ¡Ven a Sin Piojos Coapa!.
                                 </p>
-                                <a href="https://wa.me/5215551004343" className="banner-one__btn thm-btn "><span>¡Agenda tu cita!</span></a>
+                                <a href="https://wa.me/5570127591" className="banner-one__btn thm-btn "><span>¡Agenda tu cita!</span></a>
                             </div>
                         </div>
                     </div>

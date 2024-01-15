@@ -40,7 +40,7 @@ const CallToAction = () => {
                                     <i className="fa fa-check"></i>Con métodos y en procedimientos Patentados, tecnología para una efectiva eliminación de Piojos y Liendres   ¡Garantizamos los Resultados!
                                 </li>
                             </ul>
-                            <a href="https://wa.me/5215551004343" className="thm-btn">
+                            <a href="https://wa.me/5570127591" className="thm-btn">
                                 <span>¡Agenda hoy!</span>
                             </a>
                         </div>
