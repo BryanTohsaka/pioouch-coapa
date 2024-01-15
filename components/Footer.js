@@ -14,7 +14,7 @@ export default class Blog extends Component {
                                 <div className="footer-widget footer-widget__about">
                                     <img src="/assets/images/resources/logo-dark.png" width="119" alt=""
                                         className="footer-widget__logo" />
-                                        <p className="footer-widget__contact"><a href="tel:5594041740">55 7012 7591</a></p>
+                                        <p className="footer-widget__contact"><a href="tel:5570127591">55 7012 7591</a></p>
                                         <p className="footer-widget__contact"> <a href='https://maps.app.goo.gl/5Fyn53jiG3WaB2j86'>Prolongación División del Norte<br/> 4506, Plaza Acambay. <br/>Tlalpan.</a></p><br/>
                                         
                                 </div>
