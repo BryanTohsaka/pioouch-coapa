@@ -13,7 +13,7 @@ import Btnwp from "../components/Btnwp";
 
 const HomePage = () => (
 
-    <Layout pageTitle="Ay piojos - Mixcoac">
+    <Layout pageTitle="Sin piojos - Coapa">
         
         <NavOne />
         <Banner />
