@@ -10,11 +10,7 @@ const CallToAction = () => {
                 alt="Awesome Image"
             />
             <div className="container">
-                <img
-                    src="/assets/images/mocs/cta-moc-1-1.webp"
-                    className="cta-one__moc"
-                    alt="Awesome Image"
-                />
+                
                 <div className="row justify-content-lg-end">
                     <div className="col-lg-6">
                         <div className="cta-one__content">
@@ -46,6 +42,11 @@ const CallToAction = () => {
                         </div>
                     </div>
                 </div>
+                <img
+                    src="/assets/images/mocs/cta-moc-1-1.webp"
+                    className="cta-one__moc"
+                    alt="Awesome Image"
+                />
             </div>
         </section>
     );

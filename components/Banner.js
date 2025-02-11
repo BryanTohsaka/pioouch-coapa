@@ -16,7 +16,7 @@ const Banner = () => {
                             <div className="banner-one__content">
                                 <h3 className="banner-one__title">Expertos<br />
                                     <span>en eliminación</span> de Piojos<br /> y Liendres.</h3>
-                                <p className="banner-one__text">Atención personalizada ¡Ven a Sin Piojos Coapa!.
+                                <p className="banner-one__text">Atención personalizada ¡Ven a Sin Piojos!.
                                 </p>
                                 <a href="https://wa.me/5570127591" className="banner-one__btn thm-btn "><span>¡Agenda tu cita!</span></a>
                             </div>

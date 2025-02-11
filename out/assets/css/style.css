@@ -97,31 +97,12 @@ a:visited {
   background-image: linear-gradient(90deg, #ff4eb5 0%, #ffa065 100%);
   position: relative;
 }
-.thm-btn:before {
-  content: '';
-  position: absolute;
-  top: 2px;
-  right: 2px;
-  bottom: 2px;
-  left: 2px;
-  border-radius: 5px;
-  background-color: #fff;
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
-  -webkit-transition: -webkit-transform .4s ease;
-  transition: -webkit-transform .4s ease;
-  transition: transform .4s ease;
-  transition: transform .4s ease, -webkit-transform .4s ease;
-}
+
 .thm-btn span {
   position: relative;
 }
 .thm-btn:hover {
   color: #fff;
-}
-.thm-btn:hover:before {
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
 }
 
 .post-pagination {

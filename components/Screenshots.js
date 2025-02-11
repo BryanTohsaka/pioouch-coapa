@@ -4,7 +4,7 @@ import "swiper/css/swiper.css";
 
 const Screenshots = () => {
   const params = {
-    slidesPerView: 5,
+    slidesPerView: 1,
     loop: true,
     speed: 1000,
     spaceBetween: 30,
@@ -23,11 +23,11 @@ const Screenshots = () => {
       },
 
       767: {
-        slidesPerView: 3
+        slidesPerView: 1
       },
 
       575: {
-        slidesPerView: 2
+        slidesPerView: 1
       }
     }
   };
@@ -47,49 +47,49 @@ const Screenshots = () => {
         </div>
         <div className="app-shot-one__carousel">
           <Swiper {...params}>
-            <div className="item">
+            <div className="app-shot-item">
               <img src="/assets/images/app-shots/app-shot-1-1.webp" alt="" />
             </div>
-            <div className="item">
+            <div className="app-shot-item">
               <img src="/assets/images/app-shots/app-shot-1-2.webp" alt="" />
             </div>
-            <div className="item">
+            <div className="app-shot-item">
               <img src="/assets/images/app-shots/app-shot-1-3.webp" alt="" />
             </div>
-            <div className="item">
+            <div className="app-shot-item">
               <img src="/assets/images/app-shots/app-shot-1-4.webp" alt="" />
             </div>
-            <div className="item">
+            <div className="app-shot-item">
               <img src="/assets/images/app-shots/app-shot-1-5.webp" alt="" />
             </div>
-            <div className="item">
+            <div className="app-shot-item">
               <img src="/assets/images/app-shots/app-shot-1-1.webp" alt="" />
             </div>
-            <div className="item">
+            <div className="app-shot-item">
               <img src="/assets/images/app-shots/app-shot-1-2.webp" alt="" />
             </div>
-            <div className="item">
+            <div className="app-shot-item">
               <img src="/assets/images/app-shots/app-shot-1-3.webp" alt="" />
             </div>
-            <div className="item">
+            <div className="app-shot-item">
               <img src="/assets/images/app-shots/app-shot-1-4.webp" alt="" />
             </div>
-            <div className="item">
+            <div className="app-shot-item">
               <img src="/assets/images/app-shots/app-shot-1-5.webp" alt="" />
             </div>
-            <div className="item">
+            <div className="app-shot-item">
               <img src="/assets/images/app-shots/app-shot-1-1.webp" alt="" />
             </div>
-            <div className="item">
+            <div className="app-shot-item">
               <img src="/assets/images/app-shots/app-shot-1-2.webp" alt="" />
             </div>
-            <div className="item">
+            <div className="app-shot-item">
               <img src="/assets/images/app-shots/app-shot-1-3.webp" alt="" />
             </div>
-            <div className="item">
+            <div className="app-shot-item">
               <img src="/assets/images/app-shots/app-shot-1-4.webp" alt="" />
             </div>
-            <div className="item">
+            <div className="app-shot-item">
               <img src="/assets/images/app-shots/app-shot-1-5.webp" alt="" />
             </div>
           </Swiper>

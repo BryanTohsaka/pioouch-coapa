@@ -4,11 +4,7 @@ const CallToActionTwo = () => {
     return (
         <section className="cta-two">
             <div className="container">
-                <img
-                    src="/assets/images/mocs/cta-moc-2-1.webp"
-                    className="cta-two__moc"
-                    alt="Awesome Image"
-                />
+                
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="cta-two__content">
@@ -31,6 +27,11 @@ const CallToActionTwo = () => {
                         </div>
                     </div>
                 </div>
+                <img
+                    src="/assets/images/mocs/cta-moc-2-1.webp"
+                    className="cta-two__moc"
+                    alt="Awesome Image"
+                />
             </div>
         </section>
     );
