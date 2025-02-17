@@ -36,14 +36,14 @@ const CallToAction = () => {
                                     <i className="fa fa-check"></i>Con métodos y en procedimientos Patentados, tecnología para una efectiva eliminación de Piojos y Liendres   ¡Garantizamos los Resultados!
                                 </li>
                             </ul>
-                            <a href="https://wa.me/5570127591" className="thm-btn">
+                            <a href="https://wa.me/525570127591?text=Hola%20Sin%20Piojos%C2%AE.%20Me%20puedes%20dar%20info%20sobre%20los%20tratamientos%20para%20eliminar%20piojos?%20Gracias." className="thm-btn">
                                 <span>¡Agenda hoy!</span>
                             </a>
                         </div>
                     </div>
                 </div>
                 <img
-                    src="/assets/images/mocs/cta-moc-1-1.webp"
+                    src="/assets/images/mocs/cta-moc-1-1.jpeg"
                     className="cta-one__moc"
                     alt="Awesome Image"
                 />

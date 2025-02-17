@@ -10,22 +10,26 @@ const Screenshots = () => {
     spaceBetween: 30,
     autoplay: {
       delay: 3000,
-      disableOnInteraction: false
+      disableOnInteraction: true
     },
-    // Responsive breakpoints
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
     breakpoints: {
       1499: {
         slidesPerView: 5
       },
-
       991: {
         slidesPerView: 3
       },
-
       767: {
         slidesPerView: 1
       },
-
       575: {
         slidesPerView: 1
       }
@@ -42,60 +46,25 @@ const Screenshots = () => {
       <div className="container-fluid">
         <div className="block-title text-center">
           <h2 className="block-title__title">
-            Nuestros clientes son<br /> <span>lo mas importante</span>.
+            Nuestros clientes son<br /> <span>lo más importante</span>.
           </h2>
         </div>
-        <div className="app-shot-one__carousel">
+        <div
+          className="app-shot-one__carousel"
+          style={{ position: "relative", paddingBottom: "50px" }}
+        >
           <Swiper {...params}>
-            <div className="app-shot-item">
-              <img src="/assets/images/app-shots/app-shot-1-1.webp" alt="" />
-            </div>
-            <div className="app-shot-item">
-              <img src="/assets/images/app-shots/app-shot-1-2.webp" alt="" />
-            </div>
-            <div className="app-shot-item">
-              <img src="/assets/images/app-shots/app-shot-1-3.webp" alt="" />
-            </div>
-            <div className="app-shot-item">
-              <img src="/assets/images/app-shots/app-shot-1-4.webp" alt="" />
-            </div>
-            <div className="app-shot-item">
-              <img src="/assets/images/app-shots/app-shot-1-5.webp" alt="" />
-            </div>
-            <div className="app-shot-item">
-              <img src="/assets/images/app-shots/app-shot-1-1.webp" alt="" />
-            </div>
-            <div className="app-shot-item">
-              <img src="/assets/images/app-shots/app-shot-1-2.webp" alt="" />
-            </div>
-            <div className="app-shot-item">
-              <img src="/assets/images/app-shots/app-shot-1-3.webp" alt="" />
-            </div>
-            <div className="app-shot-item">
-              <img src="/assets/images/app-shots/app-shot-1-4.webp" alt="" />
-            </div>
-            <div className="app-shot-item">
-              <img src="/assets/images/app-shots/app-shot-1-5.webp" alt="" />
-            </div>
-            <div className="app-shot-item">
-              <img src="/assets/images/app-shots/app-shot-1-1.webp" alt="" />
-            </div>
-            <div className="app-shot-item">
-              <img src="/assets/images/app-shots/app-shot-1-2.webp" alt="" />
-            </div>
-            <div className="app-shot-item">
-              <img src="/assets/images/app-shots/app-shot-1-3.webp" alt="" />
-            </div>
-            <div className="app-shot-item">
-              <img src="/assets/images/app-shots/app-shot-1-4.webp" alt="" />
-            </div>
-            <div className="app-shot-item">
-              <img src="/assets/images/app-shots/app-shot-1-5.webp" alt="" />
-            </div>
+            {[...Array(9)].map((_, i) => (
+              <div className="app-shot-item" key={i}>
+                <img src={`/assets/images/app-shots/${i + 1}.webp`} alt="" />
+              </div>
+            ))}
           </Swiper>
+          <div className="swiper-pagination"></div> {/* Paginación fuera del slider */}
         </div>
       </div>
     </section>
   );
 };
+
 export default Screenshots;

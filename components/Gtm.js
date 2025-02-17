@@ -2,8 +2,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/router";
 import TagManager from "react-gtm-module";
 
-const GTM_ID = "GTM-TDCXVNWF"; // Reemplaza con tu ID de GTM
-
+const GTM_ID = "GTM-TDCXVNWF"; 
 const useGTM = () => {
     const router = useRouter();
 
