@@ -7,7 +7,7 @@ const Banner = () => {
                 <span className="banner-one__shape-2"></span>
                 <span className="banner-one__shape-3"></span>
                 <span className="banner-one__shape-4"></span>
-                <div className="container">
+                <div className="container reverse">
                     <div className="banner-one__moc">
                         <img src="/assets/images/mocs/banner-moc-1-1.webp" alt="Awesome Image" />
                     </div>

@@ -55,7 +55,7 @@ const Screenshots = () => {
         >
           <Swiper {...params}>
             {[...Array(9)].map((_, i) => (
-              <div className="app-shot-item" key={i}>
+              <div className="app-shot-item pad-res" key={i}>
                 <img src={`/assets/images/app-shots/${i + 1}.webp`} alt="" />
               </div>
             ))}

@@ -2,7 +2,10 @@ import React,{ Component } from 'react';
 import { IoLogoWhatsapp, IoCallSharp, IoLocationSharp } from "react-icons/io5";
 
 export default class Blog extends Component {
-    
+
+    tlalpan = "Sucursal Tlalpan";
+    mixcoac = "Sucursal Mixcoac";
+    tepalcates = "Sucursal Tepalcates";
 
     render(){
         return (
@@ -15,27 +18,27 @@ export default class Blog extends Component {
                            
                             <div className="col-lg-9 d-flex justify-content-around footer-widget__links-wrap">
                                 <div className="footer-widget sucursal">
-                                    <h3 className="footer-widget__title">Sucursal Tlalpan</h3>
+                                    <h3 className="footer-widget__title">{this.tlalpan}</h3>
                                     <ul className="footer-widget__links list-unstyled">
                                         <li><a href="#servicios" className='btn-align'><IoLocationSharp /> Prolongación División del Norte<br/> 4506, Plaza Acambay. <br/>Tlalpan.</a></li>
                                         <li><a href="https://wa.me/5570127591" className='btn-align'><IoCallSharp />55 7012 7591</a></li>
-                                        <a href="https://wa.me/525570127591?text=Hola%20Sin%20Piojos%C2%AE.%20Me%20puedes%20dar%20info%20sobre%20los%20tratamientos%20para%20eliminar%20piojos?%20Gracias."  className='btn-ubi btn-align no-style'><IoLogoWhatsapp />WhatsApp</a>
+                                        <a href="https://wa.me/525570127591?text=Hola%20Sin%20Piojos%C2%AE.%20Me%20puedes%20dar%20info%20sobre%20los%20tratamientos%20para%20eliminar%20piojos?%20Gracias."  className='btn-ubi btn-align no-style'><IoLogoWhatsapp />{this.tlalpan}</a>
                                     </ul>
                                 </div>
                                 <div className="footer-widget sucursal">
-                                    <h3 className="footer-widget__title">Sucursal Mixcoac</h3>
+                                    <h3 className="footer-widget__title">{this.mixcoac}</h3>
                                     <ul className="footer-widget__links list-unstyled">
                                     <li><a href="#servicios"><IoLocationSharp /> Francisco de P.Miranda 377,<br /> col. Merced Gómez,<br /> Álvaro Obregón <br />CP 01480 CDMX</a></li>
                                         <li><a href="https://wa.me/5551004343"><IoCallSharp /> 55 5100 4343</a></li>
-                                        <a href="https://wa.me/525570127591?text=Hola%20Sin%20Piojos%C2%AE.%20Me%20puedes%20dar%20info%20sobre%20los%20tratamientos%20para%20eliminar%20piojos?%20Gracias." className='btn-ubi btn-align no-style'><IoLogoWhatsapp />WhatsApp</a>
+                                        <a href="https://wa.me/525570127591?text=Hola%20Sin%20Piojos%C2%AE.%20Me%20puedes%20dar%20info%20sobre%20los%20tratamientos%20para%20eliminar%20piojos?%20Gracias." className='btn-ubi btn-align no-style'><IoLogoWhatsapp />{this.mixcoac}</a>
                                     </ul>
                                 </div>
                                 <div className="footer-widget sucursal">
-                                    <h3 className="footer-widget__title">Sucursal Tepalcates</h3>
+                                    <h3 className="footer-widget__title">{this.tepalcates}</h3>
                                     <ul className="footer-widget__links list-unstyled">
                                         <li><a href="#servicios"> <IoLocationSharp />José Arrése #22 Col.<br/> Tepalcates, 09210 Alcaldía Iztapalapa. <br/>CDMX.</a></li>
                                         <li><a href="https://wa.me/5547403702"><IoCallSharp /> 55 4740 3702</a></li>
-                                        <a href="https://wa.me/525570127591?text=Hola%20Sin%20Piojos%C2%AE.%20Me%20puedes%20dar%20info%20sobre%20los%20tratamientos%20para%20eliminar%20piojos?%20Gracias." className='btn-ubi btn-align no-style'><IoLogoWhatsapp />WhatsApp</a>
+                                        <a href="https://wa.me/525570127591?text=Hola%20Sin%20Piojos%C2%AE.%20Me%20puedes%20dar%20info%20sobre%20los%20tratamientos%20para%20eliminar%20piojos?%20Gracias." className='btn-ubi btn-align no-style'><IoLogoWhatsapp />{this.tepalcates}</a>
                                     </ul>
                                 </div>
                             </div>

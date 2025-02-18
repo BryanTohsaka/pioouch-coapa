@@ -445,6 +445,11 @@
   .banner-two__moc {
     right: -52%;
   }
+  .reverse{
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
 }
 @media (max-width: 767px) {
   .blog-details .share-block {
