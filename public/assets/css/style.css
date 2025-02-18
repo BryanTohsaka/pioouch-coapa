@@ -81,6 +81,22 @@ a:visited {
   font-weight: 700;
 }
 
+.thm-btn2 {
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  padding: 5px 25px;
+  border-radius: 5px;
+  -webkit-transition: background .4s ease, color .4s ease;
+  transition: background .4s ease, color .4s ease;
+  background-image: -webkit-gradient(linear, left top, right top, from(#a44eff), to(#659bff));
+  background-image: linear-gradient(90deg, #a44eff 0%, #659bff 100%);
+  position: relative;
+}
 .thm-btn {
   border: none;
   display: inline-block;
