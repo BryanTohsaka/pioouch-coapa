@@ -24,7 +24,6 @@ const HomePage = () => (
         <Counter />
         <Screenshots />
         <Footer />
-        <ContactButtons />
 
     </Layout>
 
