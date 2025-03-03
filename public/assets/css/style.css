@@ -3070,4 +3070,8 @@ html {
   .button-title {
       font-size: .7em;
   }
+  .whatsapp-button,
+.phone-link{
+  width: 40vh;
+}
 }
