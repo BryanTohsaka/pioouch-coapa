@@ -7,7 +7,8 @@ import CallToAction from "../components/CallToAction";
 import CallToActionTwo from "../components/CallToActionTwo";
 import Counter from "../components/Counter";
 import Screenshots from "../components/Screenshots";
-import Btnwp from "../components/Btnwp";
+import ContactButtons from "../components/ContactButtons";
+
 
 
 
@@ -23,7 +24,8 @@ const HomePage = () => (
         <Counter />
         <Screenshots />
         <Footer />
-        <Btnwp />
+        <ContactButtons />
+
     </Layout>
 
 )

@@ -2911,3 +2911,129 @@ html {
 .pad-res{
   padding-bottom: 5rem;
 }
+.contact-buttons-container {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #f3f4f6;
+  padding-left: 20px;
+  transition: all 0.3s;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  z-index: 10;
+  display: none;
+}
+
+.overlay.show {
+  display: block;
+}
+
+.contact-buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 60vw;
+  z-index: 20;
+}
+
+.whatsapp-button, .call-button {
+  display: flex;
+  align-items: center;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 2em;
+  border-radius: 999px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.whatsapp-icon, .agent-icon {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.whatsapp-logo, .agent-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 2em;
+  object-fit: cover;
+}
+
+.status-indicator {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(0, 255, 0);
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 2px;
+  right: 5px;
+}
+
+.whatsapp-text, .agent-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  font-size: 12px;
+  font-weight: normal;
+  opacity: 0.9;
+}
+
+.whatsapp-options {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 12rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  z-index: 30;
+}
+
+.whatsapp-options.show {
+  display: flex;
+}
+
+.options-title {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.option {
+  color: black;
+  padding: 8px;
+  background-color: #f3f4f6;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.option:hover {
+  background-color: #e5e7eb;
+}
+
+.call-button {
+  background-color: #6b46c1;
+}
