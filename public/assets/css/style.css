@@ -616,23 +616,11 @@ a:visited {
   position: absolute;
   top: -14%;
   left: -24%;
-  -webkit-transform-origin: center bottom;
-          transform-origin: center bottom;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  -webkit-animation-name: bounce;
-          animation-name: bounce;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
 }
 .banner-one__moc img {
   position: relative;
-  -webkit-animation: featureImgBounce 5s ease-in-out 0s infinite alternate;
-          animation: featureImgBounce 5s ease-in-out 0s infinite alternate;
+  border-radius: 15px;
+  border: 12px solid #5e0dff;
 }
 
 [class*=banner-one__shape-] {
@@ -654,10 +642,6 @@ a:visited {
   height: 143px;
   top: 5%;
   left: 3%;
-  -webkit-animation-duration: 8s;
-          animation-duration: 8s;
-  -webkit-perspective: 150px;
-          perspective: 150px;
 }
 
 .banner-one__shape-2 {
@@ -668,10 +652,6 @@ a:visited {
   height: 85px;
   top: 12%;
   left: 37%;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
-  -webkit-perspective: 85px;
-          perspective: 85px;
 }
 
 .banner-one__shape-3 {
@@ -682,10 +662,6 @@ a:visited {
   height: 85px;
   bottom: 12%;
   left: 6%;
-  -webkit-animation-duration: 7s;
-          animation-duration: 7s;
-  -webkit-perspective: 85px;
-          perspective: 85px;
 }
 
 .banner-one__shape-4 {
@@ -696,10 +672,6 @@ a:visited {
   height: 85px;
   top: 20%;
   right: 4%;
-  -webkit-animation-duration: 12s;
-          animation-duration: 12s;
-  -webkit-perspective: 85px;
-          perspective: 85px;
 }
 
 @-webkit-keyframes bubbleMover {
@@ -2479,8 +2451,6 @@ a:visited {
   position: absolute;
   top: -45px;
   left: -10%;
-  -webkit-animation: featureImgBounce 5s ease-in-out 0s infinite alternate;
-          animation: featureImgBounce 5s ease-in-out 0s infinite alternate;
 }
 .cta-one .block-title {
   margin-bottom: 0;
@@ -2539,8 +2509,6 @@ a:visited {
   position: absolute;
   top: -40px;
   right: -35px;
-  -webkit-animation: featureImgBounce 5s ease-in-out 0s infinite alternate;
-          animation: featureImgBounce 5s ease-in-out 0s infinite alternate;
 }
 .cta-two .block-title {
   margin-top: 30px;
@@ -2901,6 +2869,7 @@ html {
   text-decoration: none;
   color: inherit;
   transition: all ease-in-out .4s;
+  font-size: 14px;
 }
 .no-style:hover{
   color: #00be2c;
@@ -2918,7 +2887,6 @@ html {
 .contact-buttons-container {
   font-family: system-ui, -apple-system, sans-serif;
   background-color: #f3f4f6;
-  padding-left: 1.25rem;
   transition: all 0.3s ease;
 }
 
@@ -2943,27 +2911,24 @@ html {
 
 .buttons-wrapper {
   position: fixed;
-  bottom: 1.25rem;
-  left: 1.25rem;
+  bottom: 30px;
+  width: 100%;
+  z-index: 20;
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
-  max-width: 60vw;
-  z-index: 20;
+  gap: 10px;
+  padding: 0 10px;
 }
 
 .whatsapp-button,
 .phone-link {
   display: flex;
-  align-items: center;
   color: white;
-  padding: 0.5rem 1.2rem;
-  border-radius: 9999px;
-  font-weight: 700;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  transition: all 0.3s ease;
+  border-radius: 50px;
   text-decoration: none;
+  width: 100%;
+  padding: 15px;
 }
 
 .whatsapp-button {
@@ -2984,7 +2949,7 @@ html {
 .agent-logo {
   width: 40px;
   height: 40px;
-  border-radius: 9999px;
+  border-radius: 100%;
   margin-right: 0.75rem;
   object-fit: cover;
 }
@@ -2993,7 +2958,7 @@ html {
   width: 12px;
   height: 12px;
   background-color: #22c55e;
-  border-radius: 9999px;
+  border-radius: 100%;
   position: absolute;
   bottom: 0;
   right: 8px;
@@ -3003,20 +2968,35 @@ html {
 .button-text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  padding: 0;
+  line-height: 1;
 }
-
-.button-subtitle {
-  font-size: 0.75rem;
-  font-weight: 400;
-  opacity: 0.9;
+.button-title{
+  margin-top: 10px;
+  font-weight: 700;
 }
-
+.button-subtitle{
+  font-size: .7em;
+  font-weight: 500;
+}
 .whatsapp-options {
   position: absolute;
-  bottom: 5rem;
-  left: 50%;
-  transform: translateX(-50%);
+  bottom: 10rem;
+  right: 15px;
+  width: 12rem;
+  z-index: 30;
+  background-color: white;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.whatsapp-options-btn {
+  position: absolute;
+  top: 20rem;
+  left: 30px;
   width: 12rem;
   z-index: 30;
   background-color: white;
@@ -3028,10 +3008,12 @@ html {
   gap: 0.5rem;
 }
 
+.whatsapp-options-btn.hidden,
 .whatsapp-options.hidden {
   display: none;
 }
 
+.whatsapp-options-btn.visible,
 .whatsapp-options.visible {
   display: flex;
 }
@@ -3046,7 +3028,6 @@ html {
   color: black;
   padding: 0.25rem 0.5rem;
   background-color: #f3f4f6;
-  border-radius: 0.375rem;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
@@ -3061,17 +3042,85 @@ html {
   border-bottom: 2px solid #d1d5db;
 }
 
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(16px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  width: fit-content;
+  min-width: 280px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.modal-close {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  color: #555;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.modal-option {
+  display: block;
+  padding: 10px;
+  background: #f0f0f0;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.modal-option:hover {
+  background: #ddd;
+}
+
 @media (min-width: 768px) {
   .phone-link {
       display: none;
   }
+  .buttons-wrapper{
+    width: fit-content;
+  }
+  .whatsapp-options{
+    left: 15px;
+  bottom: 5rem;
+  }
 }
 @media (max-width: 768px) {
   .button-title {
-      font-size: .7em;
+      font-size: .9em;
   }
-  .whatsapp-button,
-.phone-link{
-  width: 40vh;
+  .buttons-wrapper{
+    max-width: 100vh;
+  }
 }
-}
+

@@ -46,15 +46,20 @@ const Screenshots = () => {
       <div className="container-fluid">
         <div className="block-title text-center">
           <h2 className="block-title__title">
-            Nuestros clientes son<br /> <span>lo más importante</span>.
+          Conoce nuestras Clínicas de 
+          Piojos Profesionales
           </h2>
+          <p>Espacios cómodos, limpios y listos 
+para eliminar piojos y liendres en 
+una sola sesión.
+</p>
         </div>
         <div
           className="app-shot-one__carousel"
           style={{ position: "relative", paddingBottom: "50px" }}
         >
           <Swiper {...params}>
-            {[...Array(9)].map((_, i) => (
+            {[...Array(7)].map((_, i) => (
               <div className="app-shot-item pad-res" key={i}>
                 <img src={`/assets/images/app-shots/${i + 1}.webp`} alt="" />
               </div>

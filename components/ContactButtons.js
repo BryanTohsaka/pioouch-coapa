@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import branchUrls from "../Config/branchUrls";
 
 const ContactButtons = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,7 +35,7 @@ const ContactButtons = () => {
                     </div>
                     <div className="button-text">
                         <span className="button-subtitle">Atención inmediata</span>
-                        <span className="button-title">Info por WhatsApp</span>
+                        <span className="button-title">Citas Urgentes - WhatsApp</span>
                     </div>
                 </div>
 
@@ -43,15 +44,12 @@ const ContactButtons = () => {
                     className={`whatsapp-options ${isMenuOpen ? 'visible' : 'hidden'}`}
                 >
                     <h3 className="options-title">Selecciona tu sucursal:</h3>
-                    <a href="https://wa.me/525570127591?text=Hola%20Sin%20Piojos%C2%AE.%20Coapa%20Me%20puedes%20dar%20info%20sobre%20los%20tratamientos%20para%20eliminar%20piojos?%20Gracias." className="option-link">
-                        Coapa
-                    </a>
-                    <a href="https://wa.me/525570127591?text=Hola%20Sin%20Piojos%C2%AE.%20Iztapalapa%20Me%20puedes%20dar%20info%20sobre%20los%20tratamientos%20para%20eliminar%20piojos?%20Gracias." className="option-link middle-link">
-                        Iztapalapa
-                    </a>
-                    <a href="https://wa.me/525570127591?text=Hola%20Sin%20Piojos%C2%AE.%20Mixcoac%20Me%20puedes%20dar%20info%20sobre%20los%20tratamientos%20para%20eliminar%20piojos?%20Gracias." className="option-link">
-                        Mixcoac
-                    </a>
+
+                    {branchUrls.map((branch) => (
+                        <a key={branch.name} href={branch.url} target="_blank" rel="noopener noreferrer" className="option-link">
+                            {branch.name}
+                        </a>
+                    ))}
                 </div>
 
                 <a

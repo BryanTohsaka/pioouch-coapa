@@ -14,13 +14,11 @@ import ContactButtons from "../components/ContactButtons";
 
 const HomePage = () => (
 
-    <Layout pageTitle="Sin piojos - Coapa">
+    <Layout pageTitle="Sin piojos">
         
         <NavOne />
         <Banner />
         <Features />
-        <CallToAction />
-        <CallToActionTwo />
         <Counter />
         <Screenshots />
         <Footer />
