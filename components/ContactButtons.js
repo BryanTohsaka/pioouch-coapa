@@ -53,7 +53,7 @@ const ContactButtons = () => {
                 </div>
 
                 <a
-                    href="tel:+123456789"
+                    href="tel:5570127591"
                     className="phone-link"
                 >
                     <div className="button-inner">
