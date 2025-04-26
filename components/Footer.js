@@ -34,6 +34,7 @@ export default class Blog extends Component {
                                         <a href="https://wa.me/525551004343?text=Hola%20Sin%20Piojos%C2%AE.%20Mixcoac%20Me%20puedes%20dar%20info%20sobre%20los%20tratamientos%20para%20eliminar%20piojos?%20Gracias." className='btn-ubi btn-align no-style'><IoLogoWhatsapp />Agenda por WhatsApp</a>
                                     </ul>
                                 </div>
+                                {/*
                                 <div className="footer-widget sucursal">
                                     <h3 className="footer-widget__title">{this.tepalcates}</h3>
                                     <ul className="footer-widget__links list-unstyled">
@@ -42,6 +43,7 @@ export default class Blog extends Component {
                                         <a href="https://wa.me/525547403702?text=Hola%20Sin%20Piojos%C2%AE.%20Iztapalapa%20Me%20puedes%20dar%20info%20sobre%20los%20tratamientos%20para%20eliminar%20piojos?%20Gracias." className='btn-ubi btn-align no-style'><IoLogoWhatsapp />Agenda por WhatsApp</a>
                                     </ul>
                                 </div>
+                                */}
                             </div>
                             <div className="col-lg-1">
                                 <div className="footer-widget footer-widget__about">
