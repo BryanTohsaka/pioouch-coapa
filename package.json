@@ -7,6 +7,9 @@
     "build": "next build",
     "start": "next start"
   },
+  "engines": {
+  "node": "16.x"
+},
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.9",
     "@zeit/next-sass": "^1.0.1",
